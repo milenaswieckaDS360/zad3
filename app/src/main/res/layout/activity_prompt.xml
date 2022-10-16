@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PromptActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="top"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay"
+        app:popupTheme="@style/Theme.MyApplication.AppBarOverlay">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Quiz"
+            android:textColor="#311B92"
+            android:textSize="25dp"
+            tools:ignore="SpUsage"
+            android:theme="@style/Theme.MyApplication.AppBarOverlay">
+
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay">
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp">
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/podpowiedz_pytanie"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="264dp"
+        tools:ignore="MissingConstraints"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay"
+        android:textColor="@color/purple_200"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/podpowiedz_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/podpowiedz_button"
+        android:textColor="#311B92"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="314dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="371dp"
+        tools:text="Odpowiedź"
+        android:theme="@style/Theme.MyApplication.AppBarOverlay"
+        android:textColor="@color/black">
+
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SM_1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Quiz">Quiz</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+    <string name="zobacz_podpowiedz_button">Zobacz podpowiedź</string>
+    <string name="podpowiedz_button">Podpowiedź</string>
+    <string name="podpowiedz_pytanie">Czy na pewno chcesz zobaczyć podpowiedź?</string>
+    <string name="answer_was_shown">Podpowiedź była już wyświetlona!</string>
+
+    <string name="q_1">Lara Croft jest Amerykanką</string>
+    <string name="q_2">Jednym z przyjaciół Lary jest James Rutland</string>
+    <string name="q_3">Lara Croft nigdy nie odwiedziła Peru</string>
+    <string name="q_4">W Tomb Raider Underworld nie poznajemy jak zginął Richard Croft</string>
+    <string name="q_5">Lara w pierwszych częściach gry była ruda</string>
+    <string name="q_6">Amanda jest wrogiem Lary</string>
+    <string name="q_7">TR Underworld powstał wcześniej niż Uncharted: Fortuna Drake’a</string>
+    <string name="q_8">Jedną z często używanych broni był granatnik</string>
+    <string name="q_9">Datą urodzin Lary jest 14 lutego</string>
+    <string name="q_10">Lokaj Winston Smith odbył służbę wojskową</string>
+
+    <string name="correct_answer">Odpowiedź poprawna</string>
+    <string name="incorrect_answer">Odpowiedź niepoprawna</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
