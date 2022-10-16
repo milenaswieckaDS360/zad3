@@ -19,7 +19,7 @@ public class PromptActivity extends AppCompatActivity {
         ("W jakich lokalizacjach Lara jeździła na motocyklu?"),
         ("O losie ojca Lary dowiadujemy się od Natli."),
         ("Gracze późniejszych części byli zawiedzieni kolorem włosów Lary."),
-        ("Amanda była w zswiązku z Rutlandem."),
+        ("Amanda była w związku z Rutlandem."),
         ("Uncharted powstało na nowszym silniku, dzięki czemu grafika była znacznie lepsza."),
         ("W ilu lokalizacjach Lara używała granatnika?"),
         ("Czyżby Panna Croft była Walentynką dla graczy?"),
